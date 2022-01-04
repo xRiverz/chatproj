@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92E7E7AAE899451A33F8B409 /* Pods_chatproj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EE15244D8CFA469D372383 /* Pods_chatproj.framework */; };
 		C338A36527846806008A158E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338A36427846806008A158E /* AppDelegate.swift */; };
 		C338A36727846806008A158E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338A36627846806008A158E /* SceneDelegate.swift */; };
 		C338A36927846806008A158E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338A36827846806008A158E /* ViewController.swift */; };
 		C338A36C27846806008A158E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338A36A27846806008A158E /* Main.storyboard */; };
 		C338A36E27846808008A158E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C338A36D27846808008A158E /* Assets.xcassets */; };
 		C338A37127846808008A158E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338A36F27846808008A158E /* LaunchScreen.storyboard */; };
+		C338A37A27846E21008A158E /* burnt-toast-creative_16-5cd212882b759__880.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C338A37927846E21008A158E /* burnt-toast-creative_16-5cd212882b759__880.jpg */; };
+		C338A37C27846E27008A158E /* burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C338A37B27846E26008A158E /* burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64EE15244D8CFA469D372383 /* Pods_chatproj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatproj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C29E3D68452556F84FE6918 /* Pods-chatproj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatproj.release.xcconfig"; path = "Target Support Files/Pods-chatproj/Pods-chatproj.release.xcconfig"; sourceTree = "<group>"; };
 		C338A36127846806008A158E /* chatproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatproj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C338A36427846806008A158E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C338A36627846806008A158E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,10 @@
 		C338A36D27846808008A158E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C338A37027846808008A158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C338A37227846808008A158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C338A37927846E21008A158E /* burnt-toast-creative_16-5cd212882b759__880.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "burnt-toast-creative_16-5cd212882b759__880.jpg"; path = "../../../burnt-toast-creative_16-5cd212882b759__880.jpg"; sourceTree = "<group>"; };
+		C338A37B27846E26008A158E /* burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg"; path = "../../../burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg"; sourceTree = "<group>"; };
+		C338A37D27846E2D008A158E /* ce9331ace9a49558e781da4c193e86b6.png.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = ce9331ace9a49558e781da4c193e86b6.png.webp; path = ../../../ce9331ace9a49558e781da4c193e86b6.png.webp; sourceTree = "<group>"; };
+		E5D9152970D0F43692CEEE2E /* Pods-chatproj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatproj.debug.xcconfig"; path = "Target Support Files/Pods-chatproj/Pods-chatproj.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E7E7AAE899451A33F8B409 /* Pods_chatproj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136309DCAB4EACC7BDB9E6D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D9152970D0F43692CEEE2E /* Pods-chatproj.debug.xcconfig */,
+				8C29E3D68452556F84FE6918 /* Pods-chatproj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2C54486DC988F5D213BFB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64EE15244D8CFA469D372383 /* Pods_chatproj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C338A35827846806008A158E = {
 			isa = PBXGroup;
 			children = (
 				C338A36327846806008A158E /* chatproj */,
 				C338A36227846806008A158E /* Products */,
+				136309DCAB4EACC7BDB9E6D6 /* Pods */,
+				B2C54486DC988F5D213BFB05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +92,19 @@
 				C338A36D27846808008A158E /* Assets.xcassets */,
 				C338A36F27846808008A158E /* LaunchScreen.storyboard */,
 				C338A37227846808008A158E /* Info.plist */,
+				C338A37827846E08008A158E /* imgs */,
 			);
 			path = chatproj;
+			sourceTree = "<group>";
+		};
+		C338A37827846E08008A158E /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				C338A37927846E21008A158E /* burnt-toast-creative_16-5cd212882b759__880.jpg */,
+				C338A37B27846E26008A158E /* burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg */,
+				C338A37D27846E2D008A158E /* ce9331ace9a49558e781da4c193e86b6.png.webp */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C338A37527846808008A158E /* Build configuration list for PBXNativeTarget "chatproj" */;
 			buildPhases = (
+				56A10BF4266FBEB144DC1B54 /* [CP] Check Pods Manifest.lock */,
 				C338A35D27846806008A158E /* Sources */,
 				C338A35E27846806008A158E /* Frameworks */,
 				C338A35F27846806008A158E /* Resources */,
+				BAB6FC14C99A778707F651FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +170,54 @@
 				C338A37127846808008A158E /* LaunchScreen.storyboard in Resources */,
 				C338A36E27846808008A158E /* Assets.xcassets in Resources */,
 				C338A36C27846806008A158E /* Main.storyboard in Resources */,
+				C338A37C27846E27008A158E /* burnt-toast-illustration-freelance-hamilton-27g2S20.jpeg in Resources */,
+				C338A37A27846E21008A158E /* burnt-toast-creative_16-5cd212882b759__880.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A10BF4266FBEB144DC1B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-chatproj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB6FC14C99A778707F651FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chatproj/Pods-chatproj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chatproj/Pods-chatproj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chatproj/Pods-chatproj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C338A35D27846806008A158E /* Sources */ = {
@@ -284,6 +370,7 @@
 		};
 		C338A37627846808008A158E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D9152970D0F43692CEEE2E /* Pods-chatproj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +398,7 @@
 		};
 		C338A37727846808008A158E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C29E3D68452556F84FE6918 /* Pods-chatproj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
